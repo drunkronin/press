@@ -382,6 +382,7 @@ input.search-form:hover {
     color: #fff;
     line-height: 34px;
     z-index: 1;
+    padding: 0 10%;
 }
 
 #main-slider .carousel .slide-margin {
@@ -389,7 +390,7 @@ input.search-form:hover {
 }
 
 #main-slider .carousel h1 {
-    font-size: 64px;
+    font-size: 59px;
     font-weight: 700;
     margin: 0 0 20px;
     color: #fff;
@@ -500,7 +501,7 @@ input.search-form:hover {
     margin: 0;
     left: 0;
     width: 100%;
-    bottom: 80px;
+    bottom: 20px;
 }
 
 #main-slider .carousel-indicators li {
@@ -515,6 +516,7 @@ input.search-form:hover {
 #main-slider .carousel-indicators li.active {
     background-color: #EC5538;
     border: 1px solid #EC5538
+    color: #EC5538;
 }
 
 #main-slider .active .animation.animated-item-1 {
@@ -2357,14 +2359,14 @@ shortcodes page css
 
 
 .photos{
-    max-height: 170px;
+    max-height: 240px;
     display: block;
     margin-bottom: 20px;
 }
 .zaglav{
         position: absolute;
     max-height: 180px;
-    right: -46%;
+    right: 15%;
 }
 .blacked::before {
   content: '';
@@ -2378,4 +2380,30 @@ shortcodes page css
 }
 .plusminus{
     height: 32px;
+}
+
+.big_list li {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.code {
+     background: #fafafa;
+    color: #2e2e2e;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.zavdop{
+            position: absolute;
+    max-height: 360px;
+    left: 15%;
+    top: 24%;
+}
+.zavdopr{
+            position: absolute;
+    max-height: 360px;
+    right: 15%;
+    top: 24%;
 }
